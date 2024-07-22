@@ -22,7 +22,7 @@
     "illuminate/collections": "^10.48"
   },
   "scripts": {
-    "phpcs": "phpcs",
+    "lint": "phpcs -- --standard=PSR12",
     "test": "phpunit tests"
   }
 }
