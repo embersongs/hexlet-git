@@ -1,4 +1,5 @@
 <?php
+
 namespace Ember\HexletPhp;
 
 function run()
