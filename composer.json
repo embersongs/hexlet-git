@@ -1,0 +1,23 @@
+{
+  "name": "ember/hexlet-php",
+  "autoload": {
+    "psr-4": {
+      "Ember\\HexletPhp\\": "src/"
+    },
+    "files": [
+      "src/Runner.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Ember",
+      "email": "evebay@mail.ru"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "require": {
+    "illuminate/collections": "^10.48"
+  }
+}
